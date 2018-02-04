@@ -1,0 +1,9 @@
+Change this in include/logging/config.h - Build: Feb  3 2018, 23:02:28
+[00:00.000][ TRACE ][main][main.cpp:11 (main)]: Entering Scope (0)
+[00:00.000][ TRACE ][main][main.cpp:12 (main)]: Message 1
+[00:00.000][ DEBUG ][main][main.cpp:13 (main)]: Message 2
+[00:00.000][  INFO ][main][main.cpp:14 (main)]: Message 3
+[00:00.000][WARNING][main][main.cpp:15 (main)]: Message 4
+[00:00.000][ ERROR ][main][main.cpp:16 (main)]: Message 5
+[00:01.000][  INFO ][main][main.cpp:19 (main)]: Done sleeping...
+[00:01.001][ TRACE ][main][main.cpp:11 (main)]: Leaving Scope (0)
