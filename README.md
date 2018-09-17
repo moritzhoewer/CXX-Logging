@@ -14,6 +14,15 @@ To set the default LogLevel for logfile use macro `SET_LOGLEVEL_FILE()`.
 
 std::cout / the logfile will contain all log messages with a LogLevel that is at least as severe as the one specified. `LogLevel::ERROR` will only print ERROR, `LogLevel::WARNING` will print WARNING and ERROR and so on. 
 
+### Configuration
+For the formatted output of file paths the relative path to `Logger.cpp` must be known. This can be configured in `logging/config.h`.
+
+The following configurations can also be made in `logging/config.h`:
+* default loglevel for console output and logfile
+* first line of logfiles
+* if the build date will be included in the logfile
+* use of colors
+
 ## Modules
 With proper use of modules, we can say more specifically which log messages we want to see.
 

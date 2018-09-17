@@ -12,6 +12,12 @@
 #ifndef LOGGING_CONFIG_H_
 #define LOGGING_CONFIG_H_
 
+/**
+ * Configure path to Logger.cpp.
+ * Used to calculate offset for correct paths in logging
+ */
+#define RELATIVE_FILEPATH "src/logging/Logger.cpp"
+
 /*
  * Configure default LogLevels here
  */
