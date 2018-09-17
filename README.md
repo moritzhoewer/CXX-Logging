@@ -2,7 +2,7 @@
 Short usage guide to the logging framework (v1.0) by Moritz Höwer
 
 ## Usage
-To use logging framework, include `util/logging/logging.h`.  
+To use logging framework, include `logging/logging.h`.
 To print a log message use the provided macros `LOG_XXX` like you would use `std::cout` (XXX is ERROR, WARNING, DEBUG or TRACE). 
 
 ### Set logfile
@@ -18,7 +18,7 @@ std::cout / the logfile will contain all log messages with a LogLevel that is at
 With proper use of modules, we can say more specifically which log messages we want to see.
 
 ### Set Module
-For adding a file (or to be more precise for a compilation unit) to a module, `#define LOG_MODULE <name>` **before** you `#include "util/logging/logging.h`.  
+For adding a file (or to be more precise for a compilation unit) to a module, `#define LOG_MODULE <name>` **before** you `#include "logging/logging.h`.
 This will put all following log messages into the module. If no module is specified, log messages are put into the global module.
 
 ### Select which modules to display
