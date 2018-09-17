@@ -23,11 +23,6 @@ using namespace std::chrono;
 namespace logging {
 
 /**
- * Used to calculate offset for correct paths in logging
- */
-#define RELATIVE_FILEPATH "src/logging/Logger.cpp"
-
-/**
  * Constructs a Logger
  */
 Logger::Logger() :
